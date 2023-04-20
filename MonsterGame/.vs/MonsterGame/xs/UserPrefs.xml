@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{43FB18CC-77E9-E697-EC1B-AF1C7BB69BD3}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnitScriptable.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UnitScriptable.cs" Line="10" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7a1bf560-c164-4d36-b4b5-fd18e5fd85b3" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
