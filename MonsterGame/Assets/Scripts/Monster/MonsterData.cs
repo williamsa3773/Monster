@@ -2,33 +2,20 @@ using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "MonsterData", menuName = "Scriptable/Monster Data")]
-public abstract class MonsterData : ScriptableObject
+public class MonsterData : UnitDataBase
 {
-    public string monsterName;
-    [SerializeField] private Stats _stats;
+    [SerializeField] private MonsterStats _monsterStats;
+    public float WanderDistance { get { return _monsterStats.wanderDistance; } }
 
     public GameObject monsterModel;
-    public string description;
+
 }
 
-
 [Serializable]
-public struct Stats
+public struct MonsterStats
 {
-    public float health;
-    public int attackPower;
-    public float armorPower;
-    public int skillPower;
-    public float speed;
+    public float experience;
     public float detectRange;
     public float aggressionRange;
-    public Species species;
-
-}
-
-[Serializable]
-public enum Species
-{
-    wolf = 0,
-    bat = 1,
+    public float wanderDistance;
 }
