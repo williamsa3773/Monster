@@ -288,3 +288,9 @@ Received Import Request.
   path: Assets/Unity Assets
   artifactKey: Guid(00d53359272b34f618dd2c5f88be546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Unity Assets using Guid(00d53359272b34f618dd2c5f88be546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91db8b9cfe48b6ee47bb672849c7c43') in 0.002486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1012.729379 seconds.
+  path: Assets/Unity Assets/SimpleLowPolyNature
+  artifactKey: Guid(f3ee080897bfa435da03ae56fd9d512d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Assets/SimpleLowPolyNature using Guid(f3ee080897bfa435da03ae56fd9d512d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4359a5b91b10a1c58cfb576c26ad3747') in 0.002085 seconds 
