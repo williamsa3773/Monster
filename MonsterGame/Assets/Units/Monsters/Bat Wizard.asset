@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 795a3a98ba38d4bad9f52f52cb787596, type: 3}
-  m_Name: MonsterData 2
+  m_Name: Bat Wizard
   m_EditorClassIdentifier: 
-  unitName: 
+  unitName: Bat Wizard
   _unitStats:
-    health: 0
-    attackPower: 0
-    armorPower: 0
-    skillPower: 0
-    speed: 0
-    species: 0
-  description: 
+    health: 30
+    attackPower: 10
+    armorPower: 3.6
+    skillPower: 4
+    speed: 5.6
+    species: 1
   _monsterStats:
     experience: 0
-    detectRange: 0
-    aggressionRange: 0
-    wanderDistance: 0
-  monsterModel: {fileID: 0}
+    detectRange: 5
+    aggressionRange: 3
+    wanderDistance: 6
+  monsterModel: {fileID: 3512226975218359816, guid: 99c95d5836d1b10479ae5535d0d204dc, type: 3}
+  description: Tier 3 Bat

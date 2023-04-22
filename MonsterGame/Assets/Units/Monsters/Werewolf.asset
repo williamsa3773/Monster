@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 795a3a98ba38d4bad9f52f52cb787596, type: 3}
-  m_Name: MonsterData 1
+  m_Name: Werewolf
   m_EditorClassIdentifier: 
-  unitName: 
+  unitName: Werewolf
   _unitStats:
-    health: 0
-    attackPower: 0
-    armorPower: 0
-    skillPower: 0
-    speed: 0
+    health: 30
+    attackPower: 10
+    armorPower: 3.6
+    skillPower: 4
+    speed: 5.6
     species: 0
-  description: 
   _monsterStats:
-    experience: 0
-    detectRange: 0
-    aggressionRange: 0
-    wanderDistance: 0
-  monsterModel: {fileID: 0}
+    experience: 100
+    detectRange: 5
+    aggressionRange: 3
+    wanderDistance: 6
+  monsterModel: {fileID: 5520583845748892553, guid: 94dd2061678f8a94caf477d694a3e473, type: 3}
+  description: Tier 3 Wolf

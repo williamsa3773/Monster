@@ -5,10 +5,11 @@ using UnityEngine;
 public class PlayerData : UnitDataBase
 {
     [SerializeField] private PlayerStats _playerStats;
-
-    public GameObject tierOneMonster;
-    public GameObject tierTwoMonster;
-    public GameObject tierThreeMonster;
+    public GameObject tierOneUnit;
+    public GameObject tierTwoUnit;
+    public GameObject tierThreeUnit;
+    public Tier tier;
+    public string description;
 }
 
 [Serializable]
@@ -16,4 +17,13 @@ public struct PlayerStats
 {
     public int level;
     public float experience;
+    
+}
+
+[Serializable]
+public enum Tier
+{
+    tierOne = 1,
+    tierTwo = 2,
+    tierThree = 3,
 }

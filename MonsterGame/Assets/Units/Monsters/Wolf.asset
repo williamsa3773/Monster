@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 795a3a98ba38d4bad9f52f52cb787596, type: 3}
-  m_Name: MonsterData 4
+  m_Name: Wolf
   m_EditorClassIdentifier: 
-  unitName: 
+  unitName: Wolf
   _unitStats:
-    health: 0
-    attackPower: 0
-    armorPower: 0
-    skillPower: 0
-    speed: 0
+    health: 15
+    attackPower: 6
+    armorPower: 3
+    skillPower: 3
+    speed: 4
     species: 0
-  description: 
   _monsterStats:
-    experience: 0
-    detectRange: 0
-    aggressionRange: 0
-    wanderDistance: 0
-  monsterModel: {fileID: 0}
+    experience: 25
+    detectRange: 7
+    aggressionRange: 3
+    wanderDistance: 8
+  monsterModel: {fileID: 6260966173753891792, guid: e13b7d7d61d4e364bb3a69b258ae54b6, type: 3}
+  description: Tier 2 Wolf

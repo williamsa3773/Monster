@@ -6,7 +6,7 @@ public abstract class UnitDataBase : ScriptableObject
     public string unitName;
     [SerializeField] private UnitStats _unitStats;
     public float Speed { get { return _unitStats.speed; } }
-    public string description;
+    
 }
 
 [Serializable]

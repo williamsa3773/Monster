@@ -9,6 +9,7 @@ public class MonsterData : UnitDataBase
 
     public GameObject monsterModel;
 
+    public string description;
 }
 
 [Serializable]
